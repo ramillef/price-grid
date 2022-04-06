@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <style>
+    
+           @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+        
+        body{
+            
+            padding: 5% 25%;
+            background-image:url(design/SL_042620_30310_10.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            font-family: 'Karla', sans-serif;
+                    
+        }
+        
+        
+        
+        .flex-container{
+            display: flex;
+        }
+        
+        
+        .info{
+            background-color: white;
+            padding: 20px 35px 20px 35px;
+            border-radius: 10px;
+            
+        
+            }
+        
+        h1 info{
+            
+            color:hsl(179, 62%, 43%); 
+            font-size: 24px;
+            
+        }
+        
+        .price{
+            background-color: #29A699;
+            color: white;
+            width: 50%;
+            height: 250px;
+            float: left;
+            padding: 10px 15px 10px 20px;
+            border-radius: 0px 0px 0px 10px; 
+            line-height: 0;
+            
+        }  
+        
+        .price h2{
+            font-size: 18px;
+            padding: 20px 15px 5px 15px;
+        }
+        
+        .dollar{
+            font-size: 30px;
+            padding: 0px 5px 0px 15px;
+        }
+        
+        .dollar, .month{
+            display: inline-block;
+           
+        }
+        
+        .acess{
+            padding: 0px 15px 30px 15px;
+        }
+        
+        .button-default{
+            color: white;
+            background-color: #BFDF32;
+            padding: 30px 20px 30px 20px;
+            margin: 5px 20px 30px 10px;
+            font-style: bold;
+            text-align: center;
+            text-decoration: none;
+            display:block;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0px 5px 10px #249085;
+        }
+        .about{
+            background-color: #4EBFB4;
+            color: white;
+            width: 50%;
+            height: 250px;
+            padding: 10px 15px 10px 20px;
+            border-radius: 0px 0px 10px 0px;
+            box-shadow: 2px 2px 5px #C2C3C8;
+                    
+    }
+        .about h2{
+            font-size: 18px;
+            padding: 10px 15px 5px 25px;
+        }
+        .about p{
+           font-size: 16px;
+            padding: 2px 100px 5px 25px; 
+        }
+        footer{
+            clear: both;
+            text-align: center;
+        }
+  </style>
+
+</head>
+<body>
+        <div class="info">
+            <h1 style="color:hsl(179, 62%, 43%); font-size: 24px;">Join our community</h1>
+
+            <h2 style="color:#C5D932; font-size: 18px">30-day, hassle-free money back guarantee</h2>
+
+            <p style="color:#B3B7C2; font-size: 16px">Gain access to our full library of tutorials along with expert code reviews. 
+  Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+        <div class="flex-container">
+            <div class="price">
+            <h2>Monthly Subscription</h2>
+
+            <p class="dollar">&dollar;29</p> <p class="month">per month</p>
+
+            <p class="acess">Full access for less than &dollar;1 a day.</p>
+
+            <a href="#" tittle="Sign Up" class="button-default">Sign Up</a>
+            
+            </div>
+            <div class="about">
+               <h2 id="about">Why Us</h2>
+
+            <p>Tutorials by industry experts Peer &amp; expert code review Coding exercises Access to our GitHub repos
+  Community forum Flashcard decks <br>New videos every week.</p>
+            </div>
+        </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
